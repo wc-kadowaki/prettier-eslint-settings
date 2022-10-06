@@ -57,5 +57,5 @@ module.exports = {
    * @type {Boolean}
    * @default false
    */
-  requirePragma: false,
+  requirePragma: true,
 };

@@ -13,6 +13,7 @@ const array = [
 console.log(array);
 
 const arrowParens = ['a', 'b', 'c', 'd', 'e', 'fj'];
-const mapItem = arrowParens.map((item) => item.length == 1);
+const mapItem = arrowParens.map((item) => {
+  item.length == 1;
+});
 console.log(mapItem);
-

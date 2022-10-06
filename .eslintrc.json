@@ -1,15 +1,16 @@
+/**
+ * @prettier
+ */
 {
   "env": {
     "browser": true,
     "es2022": true
   },
-  "extends": [
-    "eslint:recommended",
-    "prettier"
-  ],
+  "extends": ["eslint:recommended", "prettier"],
   "parserOptions": {
-    "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "rules": {}
+  "rules": {
+    "array-callback-return": "warn" // 配列のメソッドのコールバックでreturnを強制する
+  }
 }
